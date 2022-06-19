@@ -1,0 +1,101 @@
+
+.Bonovacprincipal{
+    background-color: #78AB38;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.documentomain{
+    background-color: #78AB38;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+    height: calc(100vh - 210px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulariodelmain{
+    background-color: white;
+    padding: 70px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75   0px;
+    text-align: center;
+    height: 450px;
+}
+
+.formularioright{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0;
+    margin-right: 126px;
+    width: 50%;
+}
+
+.formulariorightizq{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.formulariorightizq h3{
+    text-align: left;
+}
+
+.formulariorightizq p{
+    text-align: center !important;
+    margin-top: 23px;
+}
+
+.formularioleft{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-top: 85px;
+    width: 50%;
+}
+
+.formularioleftizq{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formularioleftizq p{
+    text-align: left !important;
+    margin-top: 23px;
+}
+
+.botonesdelmain button{
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.botonesdelmain{
+    width: 763px;
+    position: relative;
+}
+
+.atrasbutton{
+    position: absolute;
+    left: 0;
+    width: 100px !important;
+}
+
+.botonesdelmain button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}

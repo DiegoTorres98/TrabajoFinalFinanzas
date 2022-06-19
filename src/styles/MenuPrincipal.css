@@ -1,0 +1,88 @@
+.headerleft{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.headernombres{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid;
+    height: 100%;
+}
+
+.headernombres:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.headernombres2 {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid;
+    height: 100%;
+}
+
+.headernombres2 img{
+    margin-left: 10px;
+}
+
+.headerright {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.headernombres2:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.mainopciones{
+    height: calc(100vh - 210px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opciones{
+    background-color: #D0E2B9;
+    padding: 70px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+    height: 300px;
+}
+
+.opciones button{
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 150px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.opciones button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.opciones.medio{
+    margin: 0 30px;
+}
+
+.opcionesrigth {
+    margin-top: 35px;
+}
+
+.opcionesrigth button{
+    margin-bottom: 20px;
+}

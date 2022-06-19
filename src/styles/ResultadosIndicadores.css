@@ -1,0 +1,35 @@
+.maincentroizquierda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincentroizquierda input{
+    border-radius: 9px;
+    margin-left: 50px !important;
+}
+
+.atrasbuttonresultados{
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    cursor: pointer;
+    font-size: large;
+    position: absolute;
+    right: 521px;
+    width: 100px !important;
+}
+
+.imprimirbuttonresultados{
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    cursor: pointer;
+    font-size: large;
+}

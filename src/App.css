@@ -1,0 +1,166 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*ACÁ SE EDITAN LOS ESTILOS*/
+
+.main{
+  display: flex;
+  height: calc(100vh - 210px);
+  align-items: center;
+  justify-content: center;
+}
+
+.FranjaV{
+  display: flex;
+  background-color: #5D842B;
+  width: 100vw;
+  height: 70px;
+  justify-content: space-between;
+}
+
+.Bonovac{
+  background-color: #78AB38;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Bonovac h1{
+  margin: 0;
+}
+
+.Imputs{
+  display: flex;
+  align-items: center;
+}
+
+.Imputs p{
+  font-weight: bold;
+  margin-right: 20px;
+  width: 125px;
+}
+
+.Imputs input{
+  height: 25px;
+  border-radius: 20px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  width: 230px;
+}
+
+.formulario1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.formulario1 button{
+  height: 25px;
+  border-radius: 20px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  width: 150px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.formulario1 button:hover{
+  background-color: whitesmoke;
+}
+
+.miniformulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Imputs2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario2 {
+  background-color: #D0E2B9;
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.Imputs3 input{
+  height: 25px;
+  border-radius: 20px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  width: 230px;
+}
+
+.Imputs3 p{
+  font-weight: bold;
+}
+
+.formulario2 button{
+  height: 25px;
+  border-radius: 20px;
+  background-color: lightgray;
+  border: 1px solid gray;
+  width: 150px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.formulario2 button:hover{
+  background-color: whitesmoke;
+}
+
+.FranjaVF{
+  width: 100%;
+  height: 70px;
+  background-color: #5D842B;
+  position: absolute;
+  bottom: 0;
+}

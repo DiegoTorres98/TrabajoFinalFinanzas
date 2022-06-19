@@ -1,0 +1,116 @@
+.centropartemain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px !important;
+    margin: auto;
+    width: 900px;
+}
+
+.centropartemain input{
+    border-radius: 9px;
+}
+
+.centropartemain2 input{
+    border-radius: 9px;
+}
+
+.centropartemain h1{
+    margin-right: 107px;
+}
+
+.centroparte1{
+    display: flex;
+    justify-content: center;
+    width: 73.5%;
+}
+
+.centroparte1izq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.centroparte1der{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.centropartemain2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 900px;
+}
+
+.centropartemaincentro2{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 73.5%;
+}
+
+.centroparte2main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.centroparte2izq{
+    width: 50%;
+}
+
+.centroparte2der{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.botonesdelmainresultados{
+    display: flex;
+    justify-content: center;
+    width: 552px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.botonesdelmainresultados button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.atrasbuttonresultado{
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    cursor: pointer;
+    font-size: large;
+    position: absolute;
+    left: 0;
+    width: 100px !important;
+}
+
+.siguientebuttonresultado{
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    cursor: pointer;
+    font-size: large;
+
+}

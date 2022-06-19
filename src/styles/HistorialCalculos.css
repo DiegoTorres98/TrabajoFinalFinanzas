@@ -1,0 +1,63 @@
+.opcionesmuro{
+    background-color: #D0E2B9;
+    padding: 70px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    text-align: center;
+    height: 40%;
+}
+
+.opcionesmuro button{
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 150px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.opcionesmuro button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.principaltable {
+    width: 100%;
+}
+
+.principalbody {
+    background: white;
+}
+
+.principalbody tr{
+    height: 65px;
+}
+
+.filaheader {
+    height: 35px;
+}
+
+.verbutton {
+    background-color: #D0E2B9 !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+.verbutton:hover{
+    background-color: whitesmoke !important;
+    cursor: pointer !important;
+    border: 1px solid !important;
+}
+
+.volverbutton{
+    height: 35px !important;
+    width: 20% !important;
+    font-size: x-large !important;
+    margin-top: 30px !important;
+}
+

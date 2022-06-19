@@ -1,0 +1,90 @@
+.seleccionarizq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 260px;
+}
+
+.seleccionarder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 260px;
+}
+
+.seleccionarizq select{
+    width: 135.5px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.maincentroizq2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.maincentroizq2 select{
+    margin-left: 50px;
+}
+
+.seleccionarder select{
+    width: 135.5px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.maincentro{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.maincentroder{
+    margin-top: 85px;
+    margin-left: 100px;
+    width: 330px;
+}
+
+.maincentroder2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botonesdelmaindatos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.botonesdelmaindatos button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.atrasbuttondatos{
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    cursor: pointer;
+    font-size: large;
+    position: absolute;
+    left: 103px;
+    width: 100px !important;
+}
+
+.imprimirbuttondatos{
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    cursor: pointer;
+    font-size: large;
+}

@@ -1,0 +1,41 @@
+.botonesdelmaingastos{
+    display: flex;
+    justify-content: center;
+    width: 552px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.botonesdelmaingastos button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.atrasbuttongastos{
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    cursor: pointer;
+    font-size: large;
+    position: absolute;
+    left: 0;
+    width: 100px !important;
+}
+
+.imprimirbuttongastos{
+    margin-top: 30px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.maincentroizq2 input{
+    border-radius: 10px;
+}

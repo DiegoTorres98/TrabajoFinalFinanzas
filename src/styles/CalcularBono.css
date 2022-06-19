@@ -1,0 +1,65 @@
+.leftprincipal{
+    background-color: #D0E2B9;
+    padding: 70px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    height: 250px;
+}
+
+.rightprincipal{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.righttasa{
+    display: flex;
+    align-items: center;
+}
+
+.righttasa h1{
+    margin: 0;
+    margin-right: 126px;
+}
+
+.righttasa select{
+    width: 135.5px;
+    margin-top: 10px;
+}
+
+.rightmetodo{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.rightmetodo select{
+    margin-top: 10px;
+}
+
+.rightmetodo h1{
+    margin: 0;
+    margin-right: 50px;
+}
+
+.rightbutton button{
+    margin-top: 75px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    width: 200px;
+    cursor: pointer;
+}
+
+.rightbutton button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
